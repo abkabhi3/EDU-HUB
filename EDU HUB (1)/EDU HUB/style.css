@@ -1,0 +1,25 @@
+.fade-in { 
+    animation: fadeIn 0.3s ease-in; 
+}
+
+@keyframes fadeIn { 
+    from { opacity: 0; transform: translateY(10px); } 
+    to { opacity: 1; transform: translateY(0); } 
+}
+
+.hover-scale { 
+    transition: transform 0.2s; 
+}
+
+.hover-scale:hover { 
+    transform: scale(1.02); 
+}
+
+.pulse-animation { 
+    animation: pulse 2s infinite; 
+}
+
+@keyframes pulse { 
+    0%, 100% { transform: scale(1); } 
+    50% { transform: scale(1.05); } 
+}
